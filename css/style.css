@@ -1,0 +1,81 @@
+h1{
+    COLOR:rgb(255, 255, 255) ;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    background-color: rgb(165, 201, 255);
+}
+
+.colorNuevo{
+    color: chocolate;
+}
+
+.colorCorreccion{
+    color: yellow;
+}
+
+#footerTabla, .colorCorreccion{
+    text-shadow: 5px 5px 5px black;
+}
+
+table thead tr th{
+    text-shadow: 2PX 2PX 2PX black;
+}
+#info{
+    color: blue;
+}
+.product#info{
+    color: brown;
+}
+.info{
+    color: black;
+}
+input{
+    color: blueviolet;
+}
+#tel{
+    color: red;
+}
+
+.padre{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+}
+
+.amarillo{
+    width: 20%;
+    height: 200px;
+    background-color: hsl(60, 100%, 50%);
+    order: 534;
+    flex-grow: 9;
+    
+    
+}
+
+.rojo{
+    width: 20%;
+    height: 200px;
+    background-color: red;
+    order: 295;
+    flex-grow: 3;
+}
+
+.verde{
+    width: 20%;
+    height: 200px;
+    background-color: rgb(6, 99, 63);
+    order: 1;
+    flex-grow: 3;
+}
+
+.morado{
+    width: 20%;
+    height: 200px;
+    background-color: rgb(108, 33, 179);
+    order: 23456;
+    flex-grow: 2;
+}
+
